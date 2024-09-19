@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <!--Navbar-->
+     <nav class="navbar">
+
+        <h1>Jk Fashion</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+            <p class="navbar-link"><a href="Offers.html">Offers</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+    <!--Side Navbar-->
+    <div class="side-navbar">
+
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+            <p class="navbar-link"><a href="Offers.html">Offers</a></p>
+        </div>
+
+    </div>
+
+    <!--Offers-->
+
+    <div class="offers">
+        <h1 style="margin-bottom: 40px;">Offers and Discounts</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>Name</td><td><input type="text" placeholder="enter your name"></td>
+                </tr>
+                <tr>
+                    <td>Age</td><td><input type="number" placeholder="enter your age"></td>
+                </tr>
+                <tr>
+                    <td>mobile number</td><td><input type="number" placeholder="enter your phno"></td>
+                </tr>
+                <tr>
+                    <td>Gender
+                        <td><input type="radio" name="gender">Male</td>
+                        <td><input type="radio" name="gender">Female</td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter bill code</td><td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td><td><input type="reset"></td>
+                </tr>
+                
+            </table>
+        </form>
+
+    </div>
+
+    <!--Footer-->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingtext">Jk Fashion</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam officiis quas voluptatum harum debitis fugit esse deserunt explicabo cumque doloremque!</p>
+                <div class="footer-icons">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        
+        <p>@ 2024 Jkfashion.com</p>
+
+    </div>
+    
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
